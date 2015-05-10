@@ -1,0 +1,298 @@
+<!doctype html>
+
+
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Energy Lab by team DZY-Prediction</title>
+    
+    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
+    <meta name="author" content="Bartek Szopka" />
+     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+
+    
+    <link href="css/impress-demo.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+        <link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" /> 
+    <link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" /> 
+    <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/grayscale.css">
+    <!-- skin -->
+    <link rel="stylesheet" href="skin/default.css">
+
+
+</head>
+
+<body class="impress-not-supported">
+  
+
+
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+
+<div id="impress">
+
+   
+    <div id="bored" class="step slide" data-x="-1000" data-y="-1500">
+           <q style="font-size:190%"><br/> <strong> Enjoy exploring the City Pair</strong> !</br>
+             </q>
+
+    </div>
+
+    <div class="step slide" data-x="0" data-y="-1500">
+         <div id="map-canvas"></div>
+    </div>
+
+    <div class="step slide" data-x="1000" data-y="-1500">
+        <q><strong>Weakness of </strong> ordinary time series:</br></br><span style="font-size:80%">• The demand data is very noisy time series.</span></br><span style="font-size:80%">• More than one seasonal part.</span></q>
+    </div>
+
+     <div class="step slide" data-x="2000" data-y="-1500">
+        <q><strong style="font-size:80%">• Exponential Smoothing</stong>
+</br><f style="margin-left: 150px;"><img src="img/smooth.png" style="" height=220></img></f><br/><strong>• Multi-seasonality Models</strong></br> <img src="img/multi.png" style="margin-left: 250px;"></img></br></q>
+    </div>
+
+
+    <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
+        <span class="try">New idea:</span><br/><br/>
+        <h1>Similarity<sup>*</sup></h1><br/>
+        <span class="footnote"><sup>*</sup>based on environmental factor</span>
+    </div>
+
+
+    <div id="its" class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="5">
+        <p>It's a <strong>coefficient</strong> <br/>
+        defined on <br/>
+         <strong>temperature </strong>and <strong>dew point</p>
+         <img src="img/similarity.png"/>
+    </div>
+
+    <div id="big" class="step" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
+        <p>to relate  <span class="thoughts">developped</span> country</p>
+    </div>
+
+
+    <div id="tiny" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
+        <p>with <b>developing</b> country</p>
+        <div id="map-canvas"></div>
+    </div>
+
+
+    <div id="ing" class="step" data-x="3500" data-y="-850" data-rotate="270" data-scale="6">
+        <p>by <b class="positioning">using</b> <b class="rotating">GDP </b> as a <b class="scaling">revised </b> predicting factor.</p>
+    </div>
+    <div class="step slide" data-x="6700" data-y="800" data-scale="2">
+        <img src='img/simitemp.png' width=800 height=600/>
+    </div>
+    <div class="step slide" data-x="6700" data-y="2500" data-scale="2">
+        <img src='img/simiDP.png' width=800 height=600/>
+    </div>
+
+  
+
+    <div id="one-more-thing" class="step" data-x="6000" data-y="4000" data-scale="2">
+        <p>Eventually...</p>
+    </div>
+
+     <div id="its-in-3d" class="step" data-x="6200" data-y="4300" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
+        <p><span class="have">we</span> <span class="you">have</span> <span class="noticed">the correction</span> <span class="its">for</span> <span class="in">the</span> <b>predicted demand data<sup>*</sup></b></p>
+        <span class="footnote">* on the ith day</span>
+        <img src="img/corPre.png"/>
+    </div>
+
+    <div id="imagination" class="step" data-x="6700" data-y="-900" data-scale="3">
+          <q>Go back<a href="index.html"> Home! </a> </q>
+    </div>
+
+
+    <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
+    </div>
+
+</div>
+
+
+<div class="hint">
+    <p>Use a spacebar or arrow keys to continue</p>
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
+
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+ <!--google map-->
+    <style>
+      html, body, #map-canvas {
+        height: 100%;
+        margin: 0px;
+        padding: 0px
+      }
+    </style>
+
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true&libraries=weather"></script>
+     <script>
+    var map;
+    var cloudLayer;
+    var weatherLayer;
+    var infowindow = new google.maps.InfoWindow();
+    var  elevator;
+    var markera;
+    var markerb;
+    var  cities=[['Abidjan',5.3,-4],['Mababane',-26.533,31.3],['Delhi',28.567,77.117],['Amman_Jordan',32,36],['Antigue',17.117,-61.783],['New_York',40.7,-74],['South_Australia',-34.9,138.6],['Tokyo',35.7,139.8],['Singapore',1.3,103.9]]
+    var relcity=[['Singapore',1.3,103.9],['Queensland',-27.38,153.1],['San Diego',32.734,-117.1635]]
+    function initialize() {
+      var mapOptions = {
+        zoom: 2,
+        center: new google.maps.LatLng(40,120),
+        mapTypeId:'terrain'
+      };
+     map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions);
+
+     <!--weather layer
+     //weatherLayer = new google.maps.weather.WeatherLayer({
+       // temperatureUnits: google.maps.weather.TemperatureUnit.FAHRENHEIT
+      //});
+      //weatherLayer.setMap(map); -->      
+      cloudLayer = new google.maps.weather.CloudLayer();
+      cloudLayer.setMap(map);
+
+      <!--elevation layer-->
+      elevator = new google.maps.ElevationService();
+      <!--google.maps.event.addListener(map, 'click', getElevation);-->
+
+
+      <!--set marker-->
+      for(var i=0;i<3;i++){
+       var city=cities[i];
+       var myLatLng=new google.maps.LatLng(city[1],city[2]);
+      markera = new google.maps.Marker({
+      position:myLatLng,
+      map: map,
+      title:city[0],
+      animation: google.maps.Animation.DROP
+        });
+    attachListener(markera,i);
+    
+        }
+
+    }
+
+    function attachListener(marker,num)
+    {
+
+      var infowindow = new google.maps.InfoWindow({
+      content: "<a target='_blank' href='"+num+".html' id='aa' class='btn'>Show Time Series Prediction</a>",
+      maxWidth: 250});
+      google.maps.event.addListener(marker, 'mouseover', function() {
+   
+    //document.getElementById("aa").href = num+".html"; 
+   infowindow.open(map,marker);})
+
+
+      <!--addListener-->
+      var flightPlanCoordinates = [
+    new google.maps.LatLng(cities[num][1],cities[num][2]),
+    new google.maps.LatLng(relcity[num][1],relcity[num][2]),
+    ];
+    var flightPath = new google.maps.Polyline({
+    path: flightPlanCoordinates,
+    geodesic: true,
+    strokeColor: '#FF0000',
+    strokeOpacity: 1.0,
+    strokeWeight: 2
+  });
+
+     
+   <!--info window-->
+   var infowindow2 = new google.maps.InfoWindow({
+      content: "<t><img src='img/"+num+".png' id='mm'></img><a id='bb' target='_blank' class='btn' style='align:center' href='"+num+"s.html'>Show Visualization</a></t>",
+      maxWidth: 280,
+      position:new google.maps.LatLng(relcity[num][1]+10,relcity[num][2]),
+  });
+
+      google.maps.event.addListener(marker, 'click',function() {
+   flightPath.setMap(map);  
+   infowindow2.open(map);
+   //document.getElementById("mm").src= "img/"+num+".png";
+    //document.getElementById("bb").href= num+"s.html";
+ var marker1 = new google.maps.Marker({
+      position:new google.maps.LatLng(relcity[num][1],relcity[num][2]),
+      map: map,
+      title:relcity[num][0],
+      animation: google.maps.Animation.DROP
+        });});
+
+    
+    }
+    
+    function toggleBounce() {
+ if (marker.getAnimation() != null) {
+    marker.setAnimation(null);
+  } else {
+    marker.setAnimation(google.maps.Animation.BOUNCE);
+  }
+  
+  <!-- draw path-->
+ 
+}   
+
+    function getElevation(event) {
+
+      var locations = [];
+
+      // Retrieve the clicked location and push it on the array
+      var clickedLocation = event.latLng;
+      locations.push(clickedLocation);
+
+      // Create a LocationElevationRequest object using the array's one value
+      var positionalRequest = {
+        'locations': locations
+      }
+
+      // Initiate the location request
+      elevator.getElevationForLocations(positionalRequest, function(results, status) {
+        if (status == google.maps.ElevationStatus.OK) {
+
+          // Retrieve the first result
+          if (results[0]) {
+
+            // Open an info window indicating the elevation at the clicked position
+            infowindow.setContent('The elevation at this point <br>is ' + results[0].elevation + ' meters.');
+            infowindow.setPosition(clickedLocation);
+            infowindow.open(map);
+          } else {
+            alert('No results found');
+          }
+        } else {
+          alert('Elevation service failed due to: ' + status);
+        }
+      });
+    }
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+
+    </script>
+    
+</body>
+</html>
+
+
